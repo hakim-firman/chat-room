@@ -49,35 +49,13 @@ const config: Config = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			},
-			  main: '#A3E636',
-			  mainAccent: '#88cc19', // not needed for shadcn components
-			  overlay: 'rgba(0,0,0,0.8)', // background color overlay for alert dialogs, modals, etc.
-		
-			  // light mode
-			  text: '#000',
-		
-			  // dark mode
-			  darkBg: '#2c312b',
-			  darkText: '#eeefe9',
-			  darkBorder: '#000',
-			  secondaryBlack: '#212121', 
+  			}
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		},
-		  boxShadow: {
-			  light: '4px 4px 0px 0px #000',
-			  dark: '4px 4px 0px 0px #000',
-		  },
-		  translate: {
-			  boxShadowX: '4px',
-			  boxShadowY: '4px',
-			  reverseBoxShadowX: '-4px',
-			  reverseBoxShadowY: '-4px',
-		  },
+  		}
   	}
   },
   plugins: [require("tailwindcss-animate")],
